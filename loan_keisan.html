@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>PHP TEST</title></head>
+<body>
+
+
+<div class = "m_con" align="center">
+<form method="POST" action="./loan_keisan.php">
+<!-- nameをphpに渡す -->
+<h1>返済シミュレーション：リボ払い</h1>
+<p>金利</p>
+<input type="number" step="0.01" name="kin">％
+<p>借入金</p>
+<input type="number" name="kari">
+<p>月々の支払金額</p>
+<input type="number"  name="m_pay">
+<div><br></div>
+<input type="submit" name="btn1" value="計算する"></form>
+</div>
+
+</body>
+</html>
+
+
+<!-- //
+利子 11.5%
+$intrt = 1.115
+// 借入金 20万
+$ttl = 200000
+// 月々支払 8000円
+$m_pay = 8000 -->
+<!-- 借入額：200000円 array(2) { [0]=> int(120000) [1]=> float(114519.2) } -->
