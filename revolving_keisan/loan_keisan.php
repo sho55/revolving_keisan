@@ -21,8 +21,7 @@ echo"借入額：".$total."円"."<br/>";
 echo "月々の支払：".$m_pay."円"."<br/>";
 
 $y_pay=$m_pay*12;
-// var_dump($y_pay);
-$arr_total= [];
+$arr_total = array();
 $i = 1;
 
 while($total > 0){
